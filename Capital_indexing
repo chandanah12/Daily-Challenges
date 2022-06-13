@@ -1,0 +1,8 @@
+str='gfafshTgsyJiW'
+for char in str:
+    if char.isupper():
+        print(str.index(char))
+        
+    
+        
+    
