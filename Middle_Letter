@@ -1,0 +1,14 @@
+def mid(string):
+    if len(string)%2==0:
+        return " "
+    else:
+        offset=int(len(string)/2)
+        return string[offset:offset+1]
+a=mid("hello")
+print(a)
+        
+        
+        
+    
+
+    
