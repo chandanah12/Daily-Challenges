@@ -1,0 +1,7 @@
+def only_ints(a,b):
+    if type(b) and type(a) is int:
+        return True
+    else:
+        return False
+x=only_ints('a',4)
+print(x)
